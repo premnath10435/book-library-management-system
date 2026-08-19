@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 import Home from "./home";
 import Book from "./book";
@@ -11,7 +11,7 @@ import FilterBook from "./filterbook";
 
 function BookRouter() {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
 
@@ -124,7 +124,7 @@ function BookRouter() {
 
             </div>
 
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
