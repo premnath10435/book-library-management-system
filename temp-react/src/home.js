@@ -6,7 +6,6 @@ function Home() {
     return (
         <div className="pb-5">
 
-
             <div
                 className="rounded-4 mt-4 overflow-hidden shadow-lg text-white"
                 style={{
