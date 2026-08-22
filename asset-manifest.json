@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/book-library-management-system/static/css/main.20e405c5.css",
-    "main.js": "/book-library-management-system/static/js/main.70717aef.js",
-    "static/js/453.2834747c.chunk.js": "/book-library-management-system/static/js/453.2834747c.chunk.js",
+    "main.css": "/book-library-management-system/static/css/main.215df54c.css",
+    "main.js": "/book-library-management-system/static/js/main.08e03ba7.js",
+    "static/js/453.a69e2b39.chunk.js": "/book-library-management-system/static/js/453.a69e2b39.chunk.js",
     "index.html": "/book-library-management-system/index.html",
-    "main.20e405c5.css.map": "/book-library-management-system/static/css/main.20e405c5.css.map",
-    "main.70717aef.js.map": "/book-library-management-system/static/js/main.70717aef.js.map",
-    "453.2834747c.chunk.js.map": "/book-library-management-system/static/js/453.2834747c.chunk.js.map"
+    "main.215df54c.css.map": "/book-library-management-system/static/css/main.215df54c.css.map",
+    "main.08e03ba7.js.map": "/book-library-management-system/static/js/main.08e03ba7.js.map",
+    "453.a69e2b39.chunk.js.map": "/book-library-management-system/static/js/453.a69e2b39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e405c5.css",
-    "static/js/main.70717aef.js"
+    "static/css/main.215df54c.css",
+    "static/js/main.08e03ba7.js"
   ]
 }
