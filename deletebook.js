@@ -10,7 +10,7 @@ function BookDelete() {
         axios.delete(
     `https://book-library-management-system-backend-roj6.onrender.com/api/delete/${id}`
 )
-
+            
             .then((response) => {
                 alert("Book Deleted Successfully");
                 console.log(response.data);
