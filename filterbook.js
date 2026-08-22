@@ -8,7 +8,9 @@ function BookCategory() {
 
     function searchCategory() {
 
-        axios.get(`http://localhost:8080/api/category/${category}`)
+        axios.get(
+    `https://book-library-management-system-backend-roj6.onrender.com/api/category/${category}`
+)
 
             .then((response) => {
                 console.log(response.data);
