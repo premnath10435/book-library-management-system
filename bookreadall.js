@@ -7,7 +7,7 @@ function BookAll() {
 
     function readBooks() {
 
-        axios.get("http://localhost:8080/api/read")
+        axios.get("https://book-library-management-system-backend-roj6.onrender.com/api/read")
 
             .then((response) => {
                 console.log(response.data);
