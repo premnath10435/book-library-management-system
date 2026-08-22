@@ -9,18 +9,18 @@ function BookRead() {
     function getBook() {
 
         axios.get(
-    `https://book-library-management-system-backend-roj6.onrender.com/api/read/${id}`
-)
+            `https://book-library-management-system-backend-roj6.onrender.com/api/read/${id}`
+        )
 
-            .then((response) => {
-                console.log(response.data);
-                setBook(response.data);
-            })
+        .then((response) => {
+            console.log(response.data);
+            setBook(response.data);
+        })
 
-            .catch((error) => {
-                console.log(error);
-                alert("Book Not Found");
-            });
+        .catch((error) => {
+            console.log(error);
+            alert("Book Not Found");
+        });
     }
 
     return (
