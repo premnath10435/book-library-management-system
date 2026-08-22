@@ -32,7 +32,10 @@ function BookUpdate() {
 
         console.log(data);
 
-        axios.put("http://localhost:8080/api/update", data)
+        axios.put(
+    "https://book-library-management-system-backend-roj6.onrender.com/api/update",
+    data
+)
 
             .then((response) => {
                 alert("Book Updated Successfully");
