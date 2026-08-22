@@ -12,7 +12,6 @@ function Student() {
         status: "",
         title: ""
     });
-
     function handleChange(event) {
         setStudent({
             ...student,
