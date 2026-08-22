@@ -18,7 +18,7 @@ function Student() {
             [event.target.name]: event.target.value
         });
     }
-
+    
     function addStudent(event) {
 
         event.preventDefault();
