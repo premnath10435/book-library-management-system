@@ -26,7 +26,10 @@ function Student() {
 
         console.log(student);
 
-        axios.post("http://localhost:8080/api/insert", student) 
+        axios.post(
+    "https://book-library-management-system-backend-roj6.onrender.com/api/insert",
+    student
+)
  
             .then((response) => { 
                 alert("Book Added Successfully"); 
