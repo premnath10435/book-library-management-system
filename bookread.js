@@ -8,7 +8,9 @@ function BookRead() {
 
     function getBook() {
 
-        axios.get(`http://localhost:8080/api/read/${id}`)
+        axios.get(
+    `https://book-library-management-system-backend-roj6.onrender.com/api/read/${id}`
+)
 
             .then((response) => {
                 console.log(response.data);
